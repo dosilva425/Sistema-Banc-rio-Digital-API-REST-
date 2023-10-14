@@ -22,8 +22,41 @@ This is a pilot project to create the REST API for a digital bank. This project 
 - JavaScript
 - NodeJS
 - Express
+- Date-fns
 
 # Requirements
 
 - node installed on your machine
 - npm installed on your machine
+
+## Prepare
+
+```
+git clone git@github.com:dosilva425/Sistema-Bancario-Digital-API-REST-.git
+
+cd Sistema-Bancario-Digital-API-REST-
+
+npm install express
+
+npm install date-fns --save
+```
+
+#### Run
+
+```
+
+npm run dev
+
+```
+
+# Routes
+
+- [GET]/contas
+- [POST]/contas
+- [PUT]/contas/:numeroConta/usuario
+- [DELETE]/contas/:numeroConta
+- [POST]/transacoes/depositar
+- [POST]/transacoes/sacar
+- [POST]/transacoes/transferir
+- [GET]/contas/saldo
+- [GET]/contas/extrato
