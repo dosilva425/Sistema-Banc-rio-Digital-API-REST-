@@ -34,7 +34,7 @@ This is a pilot project to create the REST API for a digital bank. This project 
 ```
 git clone git@github.com:dosilva425/Sistema-Bancario-Digital-API-REST-.git
 
-cd Sistema-Bancario-Digital-API-REST-
+cd sistema-bancario-digital-api-rest
 
 npm install express
 
