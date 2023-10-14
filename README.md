@@ -31,11 +31,10 @@ This is a pilot project to create the REST API for a digital bank. This project 
 
 ## Prepare
 
+- Clone this repository on any folder that you want
+- Open your terminal on the same folder and type...
+
 ```
-git clone git@github.com:dosilva425/Sistema-Bancario-Digital-API-REST-.git
-
-cd sistema-bancario-digital-api-rest
-
 npm install express
 
 npm install date-fns --save
