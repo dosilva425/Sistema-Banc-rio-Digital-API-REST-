@@ -38,6 +38,8 @@ This is a pilot project to create the REST API for a digital bank. This project 
 npm install express
 
 npm install date-fns --save
+
+npm install -D nodemon
 ```
 
 #### Run
