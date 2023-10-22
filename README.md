@@ -39,7 +39,6 @@ npm install express
 
 npm install date-fns --save
 
-npm install -D nodemon
 ```
 
 #### Run
