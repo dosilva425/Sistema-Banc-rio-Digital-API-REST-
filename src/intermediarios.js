@@ -1,7 +1,6 @@
-const { banco } = require('./bancodedados/banco-de-dados');
-const format = require('date-fns/format');
+const { banco } = require('./bancodedados/bancoDeDados');
 
-const senha_banco = (req, res, next) => {
+const senhaBanco = (req, res, next) => {
     const { senha_banco } = req.query;
     if (!senha_banco) {
         return res.status(401).json({ mensagem: 'Informe a senha!' });
@@ -12,12 +11,6 @@ const senha_banco = (req, res, next) => {
     next();
 }
 
-const formatarDataIso = (req, res) => {
-    const dataIso = format(new Date(), 'yyyy-MM-dd kk:mm:ss');
-    return dataIso;
-}
-
 module.exports = {
-    senha_banco,
-    formatarDataIso
+    senhaBanco
 }
