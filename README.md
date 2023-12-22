@@ -34,9 +34,9 @@ Este é um projeto piloto de criação da API REST de um sistema bancário digit
 
 ```
 
-git clone git@github.com:dosilva425/sistema-bancario-digital-api-rest.git
+git clone git@github.com:dosilva425/banco-digital.git
 
-cd sistema-bancario-digital-api-rest
+cd banco-digital
 
 npm install
 
