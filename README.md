@@ -136,5 +136,3 @@ npm run dev
 
 - Rota Extrato: `GET` `/contas/extrato?numero_conta=123&senha=123`
 	- Informe o número e a senha da respectiva conta como parâmetro de consulta.
-
-```
