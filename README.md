@@ -1,6 +1,6 @@
 # Sistema Bancário Digital (API REST)
 
-Este é um projeto piloto de criação da API REST de um banco digital. Ele foi concebido a partir do desafio do módulo 2 do curso de desenvolvimento de software back-end da Cubos Academy (Ifood).
+Este é um projeto piloto de criação da API REST de um sistema bancário digital. Ele foi concebido a partir do desafio do módulo 2 do curso de desenvolvimento de software back-end da Cubos Academy (Ifood).
 
 
 <img src="https://github.com/dosilva425/Sistema-Bancario-Digital-API-REST-/blob/main/prints/print%201.png">
